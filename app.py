@@ -50,9 +50,9 @@ def spamDetect():
 
             # Display the prediction result
             if spam_status == 1:
-                result = "Spam"
+                result = "spam"
             else:
-                result = "Not Spam"
+                result = "ham"
 
             return render_template('index.html', spam_status=result)
         except Exception as e:
