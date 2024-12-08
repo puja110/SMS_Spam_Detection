@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SMS Spam Detection</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-color: #f8f9fa;
+      }
+      .container {
+        background: #fff;
+        padding: 40px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        width: 90%;
+        max-width: 600px;
+      }
+      h1 {
+        margin-bottom: 40px;
+        color: #333;
+      }
+      label {
+        font-size: 16px;
+        color: #333;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        display: block;
+        text-align: left;
+      }
+      textarea {
+        width: 90%;
+        padding: 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        resize: none;
+        font-size: 16px;
+        margin: 10px auto;
+        display: block;
+      }
+      button {
+        margin-top: 20px;
+        padding: 12px 20px;
+        background-color: #210b70;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        width: 100%;
+      }
+      button:hover {
+        background-color: #41356d;
+      }
+      .result {
+        font-size: 18px;
+        margin-top: 20px;
+        color: #555;
+      }
+      @media (max-width: 500px) {
+        .container {
+          padding: 20px;
+        }
+        h1 {
+          font-size: 22px;
+        }
+        button {
+          font-size: 14px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>SMS Spam Detection/Classifier</h1>
+      <label for="text">Enter your message:</label>
+      <form method="POST" action="/detect">
+        <textarea
+          name="text"
+          placeholder="Type your SMS message here"
+          rows="5"
+          required
+        ></textarea>
+        <button type="submit">Predict</button>
+      </form>
+      {% if spam_status %}
+      <div class="result"><strong>{{ spam_status }}</strong></div>
+      {% endif %}
+    </div>
+  </body>
+</html>
