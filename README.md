@@ -1,5 +1,3 @@
-# SMS_Spam_Detection
-
 # SMS Spam Detection
 
 This project aims to develop an SMS Spam Detection System using machine learning, categorising messages as "spam" or "ham" This system checks the textual content of the message to filter unwanted spam messages from legitimate messages. This implements Naive Bayes (MultinomialNB), TF-IDF vectorization, RandomForestClassifier, and GridSearchCV to achieve high accuracy in detecting spam SMS.
@@ -7,7 +5,7 @@ This project aims to develop an SMS Spam Detection System using machine learning
 - Research Paper: https://ieeexplore.ieee.org/document/10533895
 - Dataset Source: https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset
 
-# Steps
+# Steps <br/>
 
 1. Data cleaning: Handled missing values, dropped irrelevant columns, and performed basic preprocessing.
 2. Exploratory data analysis (EDA): Visualize and analyze data distributions, target classes, and basic statistics.
@@ -53,18 +51,18 @@ This project aims to develop an SMS Spam Detection System using machine learning
 
 3. Enter your SMS:
 
-- Sample: Please call our customer service representative on 0800 169 6031 between 10am-9pm as you have WON a guaranteed �1000 cash or �5000 prize!
+- Sample: Please call our customer service representative on 0800 169 6031 between 10am-9pm as you have WON a guaranteed 1000 cash or 5000 prize!
 
 After submitting the message, the result will be displayed on the page, showing whether the message is classified as Spam or Not Spam.
 
 # Result
 
 Existing Model Metrics:
-Accuracy: 98.74%
+Accuracy: 98.74% <br/>
 Precision: 97.0%
 
 Hyperparameter Tuned Model Metrics:
-Accuracy: 98.64%
+Accuracy: 98.64% <br/>
 Precision: 98.44%
 
 # Contribution
@@ -73,6 +71,7 @@ Precision: 98.44%
 2. Additionally, we also added a function to test the spam SMS
 3. Created a web interface using HTML
 4. Deploy the local server using Flask
+
 
 # Future Extension
 
