@@ -58,11 +58,11 @@ After submitting the message, the result will be displayed on the page, showing 
 # Result
 
 Existing Model Metrics:
-Accuracy: 98.74% <br/>
-Precision: 97.0%
+Accuracy: 98.65% <br/>
+Precision: 97%
 
 Hyperparameter Tuned Model Metrics:
-Accuracy: 98.64% <br/>
+Accuracy: 98.65% <br/>
 Precision: 98.44%
 
 # Contribution
