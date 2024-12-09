@@ -5,7 +5,7 @@ This project aims to develop an SMS Spam Detection System using machine learning
 - Research Paper: https://ieeexplore.ieee.org/document/10533895
 - Dataset Source: https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset
 
-# Steps <br/>
+# Steps
 
 1. Data cleaning: Handled missing values, dropped irrelevant columns, and performed basic preprocessing.
 2. Exploratory data analysis (EDA): Visualize and analyze data distributions, target classes, and basic statistics.
@@ -27,13 +27,13 @@ This project aims to develop an SMS Spam Detection System using machine learning
 
 # Installation
 
-1. Clone the repository:
+1. Clone the repository: <br/>
    https://github.com/puja110/SMS_Spam_Detection.git
 
-2. Go inside the project folder:
+2. Go inside the project folder: <br/>
    cd SMS_Spam_Detection
 
-3. Install the required dependencies:
+3. Install the required dependencies: <br/>
    pip install -r requirements.txt
 
 # Usage
@@ -41,12 +41,12 @@ This project aims to develop an SMS Spam Detection System using machine learning
 1. Start the Flask server:
 
 - Open your terminal and navigate to the directory where your app.py is located.
-- Run the following command to start the server:
+- Run the following command to start the server: <br/>
   python app.py
 
 2. Access the web interface in your browser:
 
-- Once the server starts, open your web browser and go to the following URL:
+- Once the server starts, open your web browser and go to the following URL: <br/>
   http://127.0.0.1:5000
 
 3. Enter your SMS:
