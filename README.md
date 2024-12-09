@@ -68,9 +68,27 @@ Precision: 98.44%
 # Contribution
 
 1. We tried to explore hyperparameter Tuning using GridSearchCV to improve the existing Model Performance.
-2. Additionally, we also added a function to test the spam SMS
-3. Created a web interface using HTML
-4. Deploy the local server using Flask
+   
+   <img width="669" alt="hyperparameterGridSearch" src="https://github.com/user-attachments/assets/99f8d3be-daf8-4380-bf97-7d14bc57e033">
+
+
+3. Additionally, we also added a function to test the spam SMS
+   
+   <img width="1456" alt="testpredict" src="https://github.com/user-attachments/assets/2505bfb6-bfdf-473b-8570-98eb5724a723">
+
+   
+5. Created a web interface using HTML
+   
+   <img width="910" alt="webpage" src="https://github.com/user-attachments/assets/dc717b77-a9aa-49ee-85bd-8ed360ca64a9">
+
+
+   
+7. Deploy the local server using Flask
+
+   <img width="1502" alt="spamtest" src="https://github.com/user-attachments/assets/ff3c642a-cd89-4318-adab-76ca7e848014">
+
+   <img width="1497" alt="notspamtest" src="https://github.com/user-attachments/assets/e1cf905a-0ad4-4096-aec3-ba582f2d4755">
+
 
 
 # Future Extension
