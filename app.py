@@ -32,7 +32,7 @@ model = pickle.load(open('Model/model.pkl', 'rb'))
 
 @app.route('/')
 def index():
-    return render_template('index.html') 
+    return render_template('index.html')
 
 @app.route('/detect', methods=['POST'])
 def spamDetect():
@@ -50,9 +50,9 @@ def spamDetect():
 
             # Display the prediction result
             if spam_status == 1:
-                result = "spam"
+                result = "Spam"
             else:
-                result = "ham"
+                result = "Not Spam"
 
             return render_template('index.html', spam_status=result)
         except Exception as e:
