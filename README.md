@@ -103,3 +103,5 @@ Precision: 98.44%
 2. https://scholar.google.ca/scholar?hl=en&as_sdt=0%2C5&q=spam+detection+machine+learning&btnG=&oq=spam+detection
 3. https://scikit-learn.org/1.5/modules/grid_search.html
 4. https://www.freecodecamp.org/news/how-to-build-a-web-application-using-flask-and-deploy-it-to-the-cloud-3551c985e492/
+5. https://myhub.technicalhub.io/RDupload/conference/11558-SMS%20Spam%20Detection%20using%20NLP%20and%20Deep%20Learning%20Recurrent%20Neural%20Network%20Variants.pdf
+6. https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset
